@@ -233,8 +233,8 @@ CREATE TABLE SBTEST%d(
    con:bulk_insert_done()
 
    if sysbench.opt.create_secondary then
-      print(string.format("Creating a secondary index on 'SBTEST%d'...",
-                          table_num))
+--       print(string.format("Creating a secondary index on 'SBTEST%d'...",
+--                           table_num))
 --       con:query(string.format("CREATE INDEX k_%d ON SBTEST%d(k)",
 --                               table_num, table_num))
    end
